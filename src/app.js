@@ -63,7 +63,7 @@ function scrollToBottom() {
 function getAssistantResponse(userMessage) {
   return new Promise((resolve) => {
     setTimeout(() => {
-      resolve("This is a simulated response. You said: " + userMessage);
+      resolve("나는 가짜 gpt야. You said: " + userMessage);
     }, 1500);
   });
 }
